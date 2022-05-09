@@ -1,5 +1,4 @@
-import {
-    render, screen, waitForElementToBeRemoved } from '@testing-library/react';
+import { render, screen, waitForElementToBeRemoved } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import userEvent from '@testing-library/user-event';
 import App from './App';
@@ -34,7 +33,5 @@ describe('Testing App', () => {
       const species = await screen.findByText('Species: Human')
       const gender = await screen.findByText('Gender: Male')
       const location =await screen.findByText('Location: Citadel of Ricks')
-     
-        
     })
 })

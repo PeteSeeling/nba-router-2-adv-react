@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
+
 export default function Detail() {
     const [loading, setLoading] = useState(true);
     const { id } = useParams();
@@ -38,9 +39,7 @@ export default function Detail() {
                     <p aria-label='species'>Species: {character.species}</p>
                     <p>Location: {character.location.name}</p>
                     <p>Gender: {character.gender}</p>
-             
                     <img alt={`${character.name}`} src={character.image} className='image' />
-                 
                     </section>
                     </div>
                     </>
