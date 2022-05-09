@@ -35,10 +35,12 @@ export default function Detail() {
                 <section>
                     <h2>{character.name}</h2>
                     <span>Status: {character.status}</span>
-                    <p>Species: {character.species}</p>
-                    {/* <p>Location: {character.location.name}</p> */}
+                    <p aria-label='species'>Species: {character.species}</p>
+                    <p>Location: {character.location.name}</p>
                     <p>Gender: {character.gender}</p>
-                    <img alt={`${character.name}`} src={character.image} />
+             
+                    <img alt={`${character.name}`} src={character.image} className='image' />
+                 
                     </section>
                     </div>
                     </>
