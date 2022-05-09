@@ -24,7 +24,7 @@ export default function Detail() {
             <Link to='/'>
                 <input
                     type='button'
-                    text='Character List' />
+                    value='Character List' />
             </Link>
         <hr />
         {loading ? (
