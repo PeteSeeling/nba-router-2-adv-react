@@ -1,0 +1,8 @@
+.top{
+align-items: center;
+font-size: 30px;
+}
+.headerDiv{
+    display:flex;
+    justify-content: center;
+}
