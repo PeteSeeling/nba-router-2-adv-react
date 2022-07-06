@@ -1,9 +1,9 @@
 html,
 
 #root{
-    align-items: center;
     display:flex;
     justify-content: center;
-    background: radial-gradient(circle at 3% 35%, rgb(214, 97, 206), rgb(249, 252, 87), rgb(252, 10, 30)) ;
-    font-: ;
+    background: radial-gradient(circle at 3% 35%, rgb(214, 97, 206), rgb(87, 186, 252), rgb(252, 10, 30));
+    color: aliceblue;
+    font-size: 2;
     }

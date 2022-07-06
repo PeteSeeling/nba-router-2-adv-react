@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import styles from './Detail.css'
 
 export default function Detail() {
     const [loading, setLoading] = useState(true);
@@ -26,13 +27,12 @@ export default function Detail() {
                     type='button'
                     value='Character List' />
             </Link>
-        <hr />
         {loading ? (
             <p>Loading...</p>
         ) : (
             <>
-            <div>
-                <section>
+            <div className={styles.detail}>
+                <section className={syles.section}>
                     <h2>{character.name}</h2>
                     <span>Status: {character.status}</span>
                     <p aria-label='species'>Species: {character.species}</p>
