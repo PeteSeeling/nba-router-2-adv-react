@@ -10,7 +10,6 @@ export default function Header() {
             <h1 className={styles.top}>Rick and Morty Router</h1>
             </section>
             </div>
-            <hr />
             </header></>
     )
 }
