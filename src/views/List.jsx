@@ -1,7 +1,6 @@
 import { useHistory, Link, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-
 export default function List(){
     const history = useHistory();
     const location = useLocation();

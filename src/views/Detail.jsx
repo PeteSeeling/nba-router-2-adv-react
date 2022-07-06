@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-
 export default function Detail() {
     const [loading, setLoading] = useState(true);
     const { id } = useParams();
