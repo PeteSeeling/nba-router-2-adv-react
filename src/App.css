@@ -3,7 +3,8 @@ html,
 #root{
     display:flex;
     justify-content: center;
-    background: radial-gradient(circle at 3% 35%, rgb(214, 97, 206), rgb(87, 186, 252), rgb(252, 10, 30));
+    background-image: url('./assets/background-3.png');
+    background-image: radial-gradient(circle at 3% 35%, rgba(214, 97, 206, 0.575), rgba(87, 186, 252, 0.522), rgba(252, 10, 30, 0.541));
     color: aliceblue;
     font-size: 2;
     }

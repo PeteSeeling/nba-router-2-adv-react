@@ -32,7 +32,7 @@ export default function Detail() {
         ) : (
             <>
             <div className={styles.detail}>
-                <section className={syles.section}>
+                <section className={styles.section}>
                     <h2>{character.name}</h2>
                     <span>Status: {character.status}</span>
                     <p aria-label='species'>Species: {character.species}</p>
